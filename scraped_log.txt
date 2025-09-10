@@ -1,0 +1,44 @@
+Home ==> scraped
+Home -> index ==> scraped
+Home -> modules ==> scraped
+Home -> What's new in Python 3.13? ==> scraped
+Home -> all "What's new" documents since Python 2.0 ==> scraped
+Home -> Tutorial ==> scraped
+Home -> Library reference ==> scraped
+Home -> Language reference ==> scraped
+Home -> Python setup and usage ==> scraped
+Home -> Python HOWTOs ==> scraped
+Home -> Installing Python modules ==> scraped
+Home -> Distributing Python modules ==> scraped
+Home -> Extending and embedding ==> scraped
+Home -> Python's C API ==> scraped
+Home -> FAQs ==> scraped
+Home -> Deprecations ==> scraped
+Home -> Glossary ==> scraped
+Home -> Search page ==> scraped
+Home -> Complete table of contents ==> scraped
+Home -> Reporting issues ==> scraped
+Home -> Download the documentation ==> scraped
+Home -> History and license of Python ==> scraped
+Home -> Copyright ==> scraped
+Home -> About the documentation ==> scraped
+Home -> Python 3.15 (in development) ==> scraped
+Home -> Python 3.14 (pre-release) ==> scraped
+Home -> Python 3.13 (stable) ==> scraped
+Home -> Python 3.12 (security-fixes) ==> scraped
+Home -> Python 3.11 (security-fixes) ==> scraped
+Home -> Python 3.10 (security-fixes) ==> scraped
+Home -> Python 3.9 (security-fixes) ==> scraped
+Home -> Python 3.8 (EOL) ==> scraped
+Home -> Python 3.7 (EOL) ==> scraped
+Home -> Python 3.6 (EOL) ==> scraped
+Home -> Python 3.5 (EOL) ==> scraped
+Home -> Python 3.4 (EOL) ==> scraped
+Home -> Python 3.3 (EOL) ==> scraped
+Home -> Python 3.2 (EOL) ==> scraped
+Home -> Python 3.1 (EOL) ==> scraped
+Home -> Python 3.0 (EOL) ==> scraped
+Home -> Python 2.7 (EOL) ==> scraped
+Home -> Python 2.6 (EOL) ==> scraped
+Home -> History and License ==> scraped
+Home -> Found a bug ==> scraped
