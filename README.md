@@ -1,13 +1,13 @@
 # Web Scraper for Vectorization
 
-This project is a powerful and versatile web scraper designed to crawl websites, extract clean text content, and prepare it for AI applications like Retrieval-Augmented Generation (RAG). It comes with two user-friendly interfaces: a web-based UI built with Streamlit and a professional Command-Line Interface (CLI) built with Typer.
+This project is a powerful and versatile web scraper designed to crawl websites, extract clean text content, and prepare it for AI applications like Retrieval-Augmented Generation (RAG). It comes with two user-friendly interfaces: a professional Command-Line Interface (CLI) built with Typer and a web-based UI built with Streamlit.
 
 
 
 ## Key Features
 
-- **Dual Interfaces**: Run the scraper through an interactive **Web UI** or a powerful **CLI**.
-- **Concurrent Scraping**: Uses **multithreading** to fetch multiple pages simultaneously for high performance.
+- **Dual Interfaces**: Run the scraper through a powerful **CLI** or an interactive **Web UI**.
+- **Concurrent Scraping**: Uses **multreading** to fetch multiple pages simultaneously for high performance.
 - **Respectful Crawling**: Automatically reads and respects `robots.txt` rules and applies rate limiting to avoid overwhelming servers.
 - **AI-Ready Data**: Optionally generates **sentence embeddings** (vectors) for each text chunk using `sentence-transformers`, making the output ready for vector databases.
 - **Structured Output**: Saves cleaned text content in a structured `JSON` format and provides a detailed `TXT` navigation log.
@@ -70,19 +70,9 @@ pip install -r requirements.txt
 ---
 ## How to Use
 
-You can run the scraper using either the Web UI or the CLI.
+You can run the scraper using either the CLI or the Web UI.
 
-### 🖥️ Option 1: Using the Web UI (Streamlit)
-
-The web interface is the easiest way to use the scraper. It provides a form to enter all the necessary parameters.
-
-**To start the app, run:**
-```bash
-streamlit run app.py
-```
-Your browser will automatically open a new tab with the user interface. Fill in the fields and click "Start Scraping".
-
-### ⌨️ Option 2: Using the CLI Tool (Typer)
+### ⌨️ Option 1: Using the CLI Tool (Typer)
 
 The CLI is perfect for scripting, automation, or for users who prefer the command line.
 
@@ -102,6 +92,17 @@ python cli.py [https://docs.python.org/3/](https://docs.python.org/3/) --depth 2
 ```bash
 python cli.py [https://docs.python.org/3/](https://docs.python.org/3/) --depth 3 --threads 10 --output-dir ./py_docs --vectorize
 ```
+> **Note**: When running commands, ensure the URL is plain text. Do not include Markdown formatting like `[]()` brackets around the link.
+
+### 🖥️ Option 2: Using the Web UI (Streamlit)
+
+The web interface is the easiest way to use the scraper. It provides a form to enter all the necessary parameters.
+
+**To start the app, run:**
+```bash
+streamlit run app.py
+```
+Your browser will automatically open a new tab with the user interface. Fill in the fields and click "Start Scraping".
 
 ---
 ## Output Files
